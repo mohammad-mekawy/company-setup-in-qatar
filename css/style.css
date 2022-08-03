@@ -3703,7 +3703,7 @@ h5.wsmwnutitle a:hover {
   /*------------------------------------------*/
 
 #hero-4 {
-  background-image: url(../images/used/hero-banner.png);
+  background-image: url(../images/used/hero-banner.jpeg);
   padding-top: 115px;
   padding-bottom: 35px;
   position: relative;
@@ -4923,6 +4923,14 @@ h5.statistic-number {
   border-radius: 8px;
   padding: 60px 35px 50px;
   margin-bottom: 40px;
+  -webkit-box-shadow: 0 12px 32px 0 rgba(0, 35, 70, 0.12);
+  -moz-box-shadow: 0 12px 32px 0 rgba(0, 35, 70, 0.12);
+  box-shadow: 0 12px 32px 0 rgba(0, 35, 70, 0.12);
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
 .pricing-1-table.highlight {
@@ -7466,6 +7474,7 @@ input.datepicker {
 .pricing-2 .tab-content {
   display: block;
   margin: auto;
+  min-width: 900px;
 }
 .tab-content {
   display: none;
@@ -7483,21 +7492,44 @@ input.datepicker {
 .pricing-2 .bg3 {
   background-image: url(../images/used/cost3.jpg);
 }
+.Offshore,
+.Mainland,
+.Freezone {
+  background-image: url(../images/used/Offshore.jpg);
+  padding-top: 90px;
+  background-size: cover;
+  background-color: #00000063;
+  background-blend-mode: overlay;
+}
+.Freezone {
+  background-image: url(../images/used/Freezone.jpg);
+}
+.Mainland {
+  background-image: url(../images/used/Mainland.jpg);
+}
 .pricing-2 h5,
 .pricing-2 li {
   color: #fff !important;
 }
-.pricing-2 .btn {
+.pricing-2 .btn,
+.pricing-1-table .btn {
   background: #fff;
   border-radius: 50px;
-  margin-top: 3rem;
 }
-.pricing-2 .btn:hover {
+.pricing-2 .btn:hover,
+.pricing-1-table .btn:hover {
   background: #0135a5;
 }
 .pricing-2 .points {
   text-align: left;
   list-style: disc;
+}
+.pricing-2 .single-plan {
+  max-width: 370px;
+  margin: auto;
+}
+.pricing-2 .single-plan .pricing-2-table {
+  min-height: 500px;
 }
 #tabs1 {
   display: block;
