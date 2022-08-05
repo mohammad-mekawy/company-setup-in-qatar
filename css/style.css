@@ -7477,7 +7477,11 @@ input.datepicker {
 .pricing-2 .tab-content {
   display: block;
   margin: auto;
-  min-width: 900px;
+}
+@media (min-width: 992px) {
+  .pricing-2 .tab-content {
+    min-width: 900px;
+  }
 }
 .tab-content {
   display: none;
@@ -7738,4 +7742,12 @@ input.datepicker {
 .quick-call-btn:hover {
   background-color: #2e343a;
   color: #fff;
+}
+@media (max-width: 992px) {
+  .pricing-2 .nav-tabs {
+    justify-content: center;
+  }
+  .pricing-2 .nav-link {
+    margin: 15px;
+  }
 }
