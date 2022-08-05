@@ -7750,4 +7750,9 @@ input.datepicker {
   .pricing-2 .nav-link {
     margin: 15px;
   }
+  .hero-4-txt ul {
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+  }
 }
