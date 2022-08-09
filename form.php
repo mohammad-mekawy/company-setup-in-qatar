@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['hero'])){
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -82,7 +82,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['Appointment'])){
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -137,7 +137,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['footer'])){
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -186,7 +186,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail3'])){
         $formErrors[] = "Add You phone please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -232,7 +232,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailCallNow'])){
         $formErrors[] = "Add You phone please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -284,7 +284,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailCallLater'])){
         $formErrors[] = "Choose time please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -336,7 +336,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailLeaveMessage']
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -384,7 +384,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailQuickCall'])){
         $formErrors[] = "Add You phone please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","Gleyi.tlijani@consultycs.com");
+            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com","Gleyi.tlijani@consultycs.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
