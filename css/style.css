@@ -3703,7 +3703,7 @@ h5.wsmwnutitle a:hover {
   /*------------------------------------------*/
 
 #hero-4 {
-  background-image: url(../images/used/hero-banner.jpg);
+  background-image: url(../images/used/hero-banner.webp);
   padding-top: 115px;
   padding-bottom: 35px;
   position: relative;
@@ -7489,30 +7489,30 @@ input.datepicker {
 .pricing-2 .bg1,
 .pricing-2 .bg2,
 .pricing-2 .bg3 {
-  background-image: url(../images/used/cost1.jpg);
+  background-image: url(../images/used/cost1.webp);
   background-position: bottom;
   background-size: cover;
 }
 .pricing-2 .bg2 {
-  background-image: url(../images/used/cost2.jpg);
+  background-image: url(../images/used/cost2.webp);
 }
 .pricing-2 .bg3 {
-  background-image: url(../images/used/cost3.jpg);
+  background-image: url(../images/used/cost3.webp);
 }
 .Offshore,
 .Mainland,
 .Freezone {
-  background-image: url(../images/used/Offshore.jpg);
+  background-image: url(../images/used/Offshore.webp);
   padding-top: 90px;
   background-size: cover;
   background-color: #00000063;
   background-blend-mode: overlay;
 }
 .Freezone {
-  background-image: url(../images/used/Freezone.jpg);
+  background-image: url(../images/used/Freezone.webp);
 }
 .Mainland {
-  background-image: url(../images/used/Mainland.jpg);
+  background-image: url(../images/used/Mainland.webp);
 }
 .pricing-2 h5,
 .pricing-2 li {
