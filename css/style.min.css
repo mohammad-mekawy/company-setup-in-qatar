@@ -753,7 +753,7 @@ strong {
   background-image: url(../images/bg-01.jpg);
 }
 .bg-02 {
-  background-color: #00a6e2;
+  background-color: #6b1d58;
 }
 .bg-03 {
   background-image: url(../images/bg-03.jpg);
@@ -1158,9 +1158,9 @@ ol.num-list li p {
 .scroll .primary-hover:hover,
 .white-color .btn-primary,
 .white-color .primary-hover:hover {
-  color: #fff !important;
-  background-color: #6b1d58;
-  border-color: #6b1d58 !important;
+  color: #000 !important;
+  background-color: #fff;
+  border-color: #fff !important;
 }
 .btn-tra-primary,
 .scroll .btn-tra-primary,
@@ -1168,9 +1168,9 @@ ol.num-list li p {
 .tra-primary-hover:hover,
 .white-color .btn-tra-primary,
 .white-color .tra-primaryhover:hover {
-  color: #6b1d58 !important;
+  color: #fff !important;
   background-color: transparent;
-  border-color: #6b1d58 !important;
+  border-color: #fff !important;
 }
 .btn-k:hover {
   color: #fff !important;
