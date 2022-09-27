@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['hero'])){
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -51,7 +51,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['hero'])){
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Phone: '. $phone .'</h3><br>';
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Message: '. $message .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
@@ -82,7 +82,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['Appointment'])){
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -107,7 +107,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['Appointment'])){
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Phone: '. $phone .'</h3><br>';
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Message: '. $message .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
@@ -137,7 +137,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['footer'])){
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -161,7 +161,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['footer'])){
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Email: '. $email .'</h3><br>';
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Phone: '. $phone .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
@@ -186,7 +186,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail3'])){
         $formErrors[] = "Add You phone please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -208,7 +208,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail3'])){
 
                $bodyContent = '<h3 style="font-size:18px; margin-bottom:12px;">Phone: '. $phone .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
@@ -232,7 +232,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailCallNow'])){
         $formErrors[] = "Add You phone please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -254,7 +254,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailCallNow'])){
 
                $bodyContent = '<h3 style="font-size:18px; margin-bottom:12px;">Phone: '. $phone .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
@@ -284,7 +284,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailCallLater'])){
         $formErrors[] = "Choose time please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -308,7 +308,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailCallLater'])){
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Email: '. $time .'</h3><br>';
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Phone: '. $phone .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
@@ -336,7 +336,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailLeaveMessage']
         $formErrors[] = "Add You email please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -360,7 +360,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailLeaveMessage']
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Email: '. $email .'</h3><br>';
                $bodyContent .= '<h3 style="font-size:18px; margin-bottom:12px;">Message: '. $message .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
@@ -384,7 +384,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailQuickCall'])){
         $formErrors[] = "Add You phone please";
     }
     if(empty($formErrors)){
-            $emails = array("i.owis@happenize.com","info@consultycs.com",  "gmarwadi@consultycs.com", "trishna@happenize.com", "desiree@happenize.com","production@happenize.com","javeed.ameen@consultycs.com");
+            $emails = array("i.owis@happenize.com");
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -406,7 +406,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemailQuickCall'])){
 
                $bodyContent = '<h3 style="font-size:18px; margin-bottom:12px;">Phone: '. $phone .'</h3><br>';
 
-               $mail->Subject = 'Consultycs DMCC Dubai Lead';
+               $mail->Subject = 'happenize Lead';
                $mail->Body    = $bodyContent;
             //    $mail->send();
                if(!$mail->Send()) {
